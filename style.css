@@ -15,7 +15,7 @@ body {
 
 .new-year {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   width: 50%;
   transform: translate(-50%, -50%); /* To center the div */
@@ -54,9 +54,9 @@ body {
   }
 }
 
-@media screen and (max-width: 2001px){
+@media screen and (max-width: 1500px){
   .new-year {
-    top: 35%;
+    top: 25%;
     border-bottom: 4px solid var(--crayola-bright-yellow);
     animation: animate 2s linear forwards;
     padding: 5px;
