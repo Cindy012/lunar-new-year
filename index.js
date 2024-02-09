@@ -2,5 +2,14 @@ var newYearDiv = document.getElementsByClassName("new-year")[0];
 var confetti = document.getElementById("confetti");
 
 newYearDiv.addEventListener("animationend", function() {
-    console.log("The animation has ended!");
+    shootConfetti();
 });
+
+function shootConfetti() {
+    let confettiPosition = (window.screen.width * window.devicePixelRatio) < 2000 ? 0.47 : 0.30;
+    confetti({
+        particleCount: 100,
+        spread: 70,
+        origin: { y: confettiPosition },
+    }, document.body);
+}
