@@ -56,7 +56,6 @@ body {
 
 @media screen and (max-width: 1500px){
   .new-year {
-    top: 25%;
     border-bottom: 4px solid var(--crayola-bright-yellow);
     animation: animate 2s linear forwards;
     padding: 5px;

@@ -6,7 +6,7 @@ newYearDiv.addEventListener("animationend", function() {
 });
 
 function shootConfetti() {
-    let confettiPosition = (window.screen.width * window.devicePixelRatio) < 1500 ? 0.22 : 0.4 ;
+    let confettiPosition = 0.4 ;
     confetti({
         particleCount: 100,
         spread: 70,
